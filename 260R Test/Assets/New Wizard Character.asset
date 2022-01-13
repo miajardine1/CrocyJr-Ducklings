@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: New Wizard Character
   m_EditorClassIdentifier: 
   skincolor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  wizardHatColor: {r: 0.61767197, g: 0, b: 1, a: 1}
