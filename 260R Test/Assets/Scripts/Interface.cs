@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public interface IPowerUp
+public partial interface IPowerUp
 {
     public float PowerLevel { get; set; }
 }
