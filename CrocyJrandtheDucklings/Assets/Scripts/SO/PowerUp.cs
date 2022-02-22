@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu]
-public class PowerUp : ScriptableObject
+public class PowerUp : ArtBase
 {
  public float PowerLevel { get; set; }
  
