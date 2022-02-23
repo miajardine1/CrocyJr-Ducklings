@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f76c694f752f4a40a8f590827a930c5, type: 3}
   m_Name: Duck
   m_EditorClassIdentifier: 
+  art: {fileID: 21300000, guid: e2cefadaafafb254ebe17d5b0485c69e, type: 3}
+  artColor: {r: 1, g: 0, b: 0, a: 1}
