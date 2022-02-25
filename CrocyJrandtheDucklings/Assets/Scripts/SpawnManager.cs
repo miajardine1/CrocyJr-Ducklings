@@ -1,21 +1,37 @@
+using System;
+using System.Collections;
+using UnityEditor.SceneTemplate;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
+//Todo: setup Spawn properly!
 public class SpawnManager : MonoBehaviour
 {
-    private float minValueX = -2.75f;
-    private float minValueY = -5f;
-    private float spaceBetweenSquares = 1f;
-    
-    Vector3 RandomSpawnPosition()
+  public GameObject duck;
+  public float spawnTime;
+  public WaitForSeconds wfs;
+
+  private void Start()
+  {
+      wfs = new WaitForSeconds(spawnTime);
+      StartCoroutine(SpawnRoutine());
+  }
+
+  public void SpawnDuck()
     {
-        float spawnPosX = minValueX + (RandomSquareIndex() * spaceBetweenSquares);
-        float spawnPosY = minValueY;
-        Vector3 spawnPosition = new Vector3(spawnPosX, spawnPosY, 0);
-        return spawnPosition;
+        Vector3 spawnPoint = new Vector3(Random.Range(-2f,2f),7.5f,-1);
+        Instantiate(duck, spawnPoint, Quaternion.identity);
     }
 
-    int RandomSquareIndex()
-    {
-        return Random.Range(0, 3);
-    }
+   public IEnumerator SpawnRoutine()
+   {
+       while (true)
+       {
+           SpawnDuck();
+           yield return wfs;
+       }
+   }
+  
 }
+
+

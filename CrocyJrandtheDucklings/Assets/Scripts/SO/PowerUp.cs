@@ -10,6 +10,7 @@ public class PowerUp : ArtBase, IPowerUp
   {
    Destroy(powerUpObj, 2);
    //todo: update score
+   //todo: chomp sound effect
   }
   
   private void OnTriggerEnter(Collider other)
