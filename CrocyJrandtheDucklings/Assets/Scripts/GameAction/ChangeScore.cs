@@ -6,6 +6,7 @@ public class ChangeScore : MonoBehaviour
 {
     public void UpdateScore()
     {
+        //todo: actually update score
         print(message:"ScoreUpdated");
     }
 }

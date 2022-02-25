@@ -1,14 +1,20 @@
 using UnityEngine;
+using UnityEngine.Android;
 
 [CreateAssetMenu]
-public class PowerUp : ArtBase
+public class PowerUp : ArtBase, IPowerUp
 {
  public float PowerLevel { get; set; }
- 
- public void OnTriggerEnter()
- {
-  //destroy
+ public PowerUp powerUpObj;
+  public void OnMouseDown()
+  {
+   Destroy(powerUpObj, 2);
+   //todo: update score
+  }
+  
+  private void OnTriggerEnter(Collider other)
+  {
+   //todo: invoke changeGameState Action when missed
+  }
 
  }
- 
-}
