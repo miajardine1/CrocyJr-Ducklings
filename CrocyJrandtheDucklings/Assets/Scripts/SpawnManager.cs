@@ -4,7 +4,7 @@ using UnityEditor.SceneTemplate;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-//Todo: setup Spawn properly!
+
 public class SpawnManager : MonoBehaviour
 {
   public GameObject duck;
