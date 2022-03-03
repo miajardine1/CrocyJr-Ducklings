@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class DestroyBehaviour : MonoBehaviour
 {
-    public GameObject gameObj;
-    private void OnTriggerEnter(Collider other)
+   
+    public void OnCollisionEnter()
     {
-      
-        Destroy(gameObj, (float) 1.5);
+      Destroy(gameObject);
     }
 }
