@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duck: {fileID: 5979632976374103662, guid: 8cdaca08fea2bf541ae9a81d769d52c5, type: 3}
-  spawnTime: 2
+  spawnTime: 1
 --- !u!65 &1829260851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duck: {fileID: 2694845491212520492, guid: a2f3500f4ff8ea242b51fef55996a084, type: 3}
-  spawnTime: 10
+  spawnTime: 3
 --- !u!114 &1829260856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duck: {fileID: 991529164772447319, guid: fde2c21c47f746e4a802c2717490477b, type: 3}
-  spawnTime: 6
+  spawnTime: 2
 --- !u!1 &1882590117
 GameObject:
   m_ObjectHideFlags: 0
