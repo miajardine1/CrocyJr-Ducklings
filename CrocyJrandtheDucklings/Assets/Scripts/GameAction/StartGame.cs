@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-   public void LoadScene(string eatDucklings)
+   public void Start()
    {
        SceneManager.LoadScene("EatDucklings");
 
