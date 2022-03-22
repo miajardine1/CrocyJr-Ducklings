@@ -1,12 +1,13 @@
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-   public void Start()
+    public GameObject spawnObject;
+    public GameObject titleScreen;
+   public void OnEnable()
    {
-       SceneManager.LoadScene("EatDucklings");
-
-   }
+       titleScreen.SetActive(false);
+       spawnObject.gameObject.SetActive(true);
+       }
 }
