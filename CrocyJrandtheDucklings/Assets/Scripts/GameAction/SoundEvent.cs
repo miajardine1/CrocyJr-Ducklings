@@ -1,10 +1,15 @@
 using UnityEngine;
 
-public class SoundEvent : GameAction    
+[RequireComponent(typeof(AudioSource))]
+public class SoundEvent : MonoBehaviour
 {
-   public void OnCollisionEnter(Collision other)
+   public AudioSource audioData;
+
+   public void OnCollisionEnter()
    {
-      //todo: chomp
-      Debug.Log("chomp");
+      audioData = GetComponent<AudioSource>();
+      audioData.Play(0);
    }
+   
+   //https://docs.unity3d.com/ScriptReference/AudioSource.Play.html
 }
