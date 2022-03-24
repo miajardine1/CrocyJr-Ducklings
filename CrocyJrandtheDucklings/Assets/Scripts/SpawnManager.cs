@@ -1,6 +1,6 @@
-using System;
+
 using System.Collections;
-using UnityEditor.SceneTemplate;
+
 using UnityEngine;
 using Random = UnityEngine.Random;
 
