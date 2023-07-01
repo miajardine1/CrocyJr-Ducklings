@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2694845491212520493}
   - component: {fileID: 2694845491212520489}
   - component: {fileID: 2694845491212520488}
-  - component: {fileID: -787260158074887274}
+  - component: {fileID: 8577977171614049326}
   m_Layer: 0
   m_Name: Duck 2
   m_TagString: Untagged
@@ -114,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-787260158074887274
+--- !u!114 &8577977171614049326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,7 +123,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2694845491212520492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60fedb9cd19465a4b8386746c4929aa5, type: 3}
+  m_Script: {fileID: 11500000, guid: 679a72958f2db7b459ed49b54fcb17c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObj: {fileID: 2694845491212520492}

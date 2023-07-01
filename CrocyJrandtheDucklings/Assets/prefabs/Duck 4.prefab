@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5979632976374103662
+--- !u!1 &2694845491212520492
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5979632976374103656}
-  - component: {fileID: 5979632976374103663}
-  - component: {fileID: 5979632976374103659}
-  - component: {fileID: 5979632976374103658}
-  - component: {fileID: -1015120907302182553}
+  - component: {fileID: 2694845491212520490}
+  - component: {fileID: 2694845491212520493}
+  - component: {fileID: 2694845491212520489}
+  - component: {fileID: 2694845491212520488}
+  - component: {fileID: 8577977171614049326}
   m_Layer: 0
   m_Name: Duck 4
   m_TagString: Untagged
@@ -20,27 +20,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5979632976374103656
+--- !u!4 &2694845491212520490
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5979632976374103662}
+  m_GameObject: {fileID: 2694845491212520492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.3, y: 6.7, z: -0.9914284}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5979632976374103663
+--- !u!212 &2694845491212520493
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5979632976374103662}
+  m_GameObject: {fileID: 2694845491212520492}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e2cefadaafafb254ebe17d5b0485c69e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2dae43768cb515f4ab17f8b38b41c31a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,45 +85,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &5979632976374103659
+--- !u!65 &2694845491212520489
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5979632976374103662}
+  m_GameObject: {fileID: 2694845491212520492}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 40, y: 40, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5979632976374103658
+--- !u!54 &2694845491212520488
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5979632976374103662}
+  m_GameObject: {fileID: 2694845491212520492}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 4
+  m_Drag: 2
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-1015120907302182553
+--- !u!114 &8577977171614049326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5979632976374103662}
+  m_GameObject: {fileID: 2694845491212520492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60fedb9cd19465a4b8386746c4929aa5, type: 3}
+  m_Script: {fileID: 11500000, guid: 679a72958f2db7b459ed49b54fcb17c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObj: {fileID: 5979632976374103662}

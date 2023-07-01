@@ -1,14 +1,15 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EndGame : MonoBehaviour
 {
     public GameObject spawnObject;
-    public GameObject gameOverScreen;
+    public UnityEvent OnCollisionEvent;
 
     public void OnCollisionEnter()
     {
-        gameOverScreen.SetActive(true);
         spawnObject.gameObject.SetActive(false);
+        OnCollisionEvent.Invoke();
     }
 
 }
