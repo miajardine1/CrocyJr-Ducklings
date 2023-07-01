@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DestroyBehaviour : MonoBehaviour
+public class DestroyBehaviourCROCY : MonoBehaviour
 {
    
     public void OnCollisionEnter()

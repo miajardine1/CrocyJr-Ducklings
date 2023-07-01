@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameActionHandler : MonoBehaviour
+public class GameActionHandlerCROCY : MonoBehaviour
 {
     public GameAction action;
     public UnityEvent startEvent, respondEvent, respondLateEvent;
