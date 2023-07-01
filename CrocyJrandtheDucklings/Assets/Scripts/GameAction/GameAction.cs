@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(menuName = "Actions/Game Action")]
-public class GameActionCROCY : ScriptableObject
+public class GameAction : ScriptableObject
 {
    public UnityAction<object> raise;
    public UnityAction<Coroutine> raiseCoroutine;
