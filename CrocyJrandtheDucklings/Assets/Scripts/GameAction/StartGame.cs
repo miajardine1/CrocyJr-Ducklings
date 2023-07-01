@@ -4,7 +4,7 @@ using UnityEngine;
 public class StartGame : MonoBehaviour
 {
     public GameObject spawnObject;
-    public GameObject titleScreen;
+    
 
     public WaitForSeconds wfs;
     public float startTime;
@@ -19,7 +19,6 @@ public class StartGame : MonoBehaviour
         while (true)
         {
             yield return wfs;
-            titleScreen.SetActive(false);
             spawnObject.gameObject.SetActive(true);
         }
     }
