@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3906800131226209909}
   - component: {fileID: 9015436381784173962}
   - component: {fileID: 3431867879651147966}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Duck 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game Over Screen
+          m_StringArgument: Game Over Red Duck Screen
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &3431867879651147966

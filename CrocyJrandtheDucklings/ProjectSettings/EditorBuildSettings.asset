@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: e332c3aa9555f8f4482cff8cf5974424
   - enabled: 1
-    path: Assets/Scenes/Game Over Screen.unity
+    path: Assets/Scenes/Game Over Red Duck Screen.unity
     guid: 4dd0ed719b0102249b92c272a353c7b2
+  - enabled: 1
+    path: Assets/Scenes/Game Over Escape Screen.unity
+    guid: 01f7cf83fa7cd914b97a7153263033fd
   m_configObjects: {}

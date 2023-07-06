@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2694845491212520489}
   - component: {fileID: 2694845491212520488}
   - component: {fileID: 8577977171614049326}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Duck 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2694845491212520492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.3, y: 6.7, z: -0.9914284}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -107,7 +107,7 @@ Rigidbody:
   m_GameObject: {fileID: 2694845491212520492}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 2
+  m_Drag: 3
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
