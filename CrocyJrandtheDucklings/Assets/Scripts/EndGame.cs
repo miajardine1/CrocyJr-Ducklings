@@ -8,7 +8,7 @@ public class EndGame : MonoBehaviour
 
     public void OnCollisionEnter()
     {
-        spawnObject.gameObject.SetActive(false);
+        //spawnObject.gameObject.SetActive(false);
         OnCollisionEvent.Invoke();
     }
 

@@ -17,12 +17,12 @@ public class MovementBehaviour : MonoBehaviour
         charctrl = GetComponent<CharacterController>();
     }
     
-    private void Update()
+    /*private void Update()
     {
         // Move the character controller using the movement vector
         charctrl.Move(movement * Time.deltaTime);
         
-    }
+    }*/
     
     public void onMoveRight()
     {
