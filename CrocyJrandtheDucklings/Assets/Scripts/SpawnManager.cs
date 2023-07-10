@@ -13,7 +13,6 @@ public class SpawnManager : MonoBehaviour
 
   private void Start()
   {
-      spawnTime = Mathf.MoveTowards(spawnTime, .5f, .5f);
       wfs = new WaitForSeconds(spawnTime);
       StartCoroutine(SpawnRoutine());
   }
@@ -22,7 +21,7 @@ public class SpawnManager : MonoBehaviour
     {
         Vector3 spawnPoint = new Vector3(Random.Range(-2f,2f),7.5f,-1);
         Instantiate(duck, spawnPoint, Quaternion.identity);
-        
+        spawnTime = Mathf.MoveTowards(spawnTime, .5f, .5f);
     }
 
    public IEnumerator SpawnRoutine()
