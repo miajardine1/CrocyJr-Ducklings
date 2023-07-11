@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8577977171614049326}
   - component: {fileID: 2822351779662459041}
   - component: {fileID: -8947734828066673461}
+  - component: {fileID: 1741543736737232687}
   m_Layer: 8
   m_Name: Duck 2
   m_TagString: Untagged
@@ -210,3 +211,22 @@ MonoBehaviour:
   counterNum: {fileID: 0}
   canRun: 0
   seconds: 3
+--- !u!95 &1741543736737232687
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2694845491212520492}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: adf69740e0d16804384b18aa00d96f69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
