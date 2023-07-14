@@ -157,6 +157,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16361f8965870743b2d93beb2468a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadSceneEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  loadSceneEventExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &-4245453670031564901
 MonoBehaviour:
   m_ObjectHideFlags: 0

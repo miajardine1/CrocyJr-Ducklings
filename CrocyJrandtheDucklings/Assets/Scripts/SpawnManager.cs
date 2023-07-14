@@ -21,7 +21,7 @@ public class SpawnManager : MonoBehaviour
     {
         Vector3 spawnPoint = new Vector3(Random.Range(-2f,2f),7.5f,-1);
         Instantiate(duck, spawnPoint, Quaternion.identity);
-        spawnTime = Mathf.MoveTowards(spawnTime, .5f, .5f);
+        spawnTime = Mathf.MoveTowards(spawnTime, 100f, .1f);
     }
 
    public IEnumerator SpawnRoutine()
