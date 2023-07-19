@@ -247,8 +247,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: crocy.keystore'
-  AndroidKeyaliasName: crocy
+  AndroidKeystoreName: C:/Users/Miriam/.android/debug.keystore
+  AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -691,7 +691,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

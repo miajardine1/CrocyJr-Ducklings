@@ -11,15 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Eat Ducklings.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Game Over Red Duck Screen.unity
     guid: 01f7cf83fa7cd914b97a7153263033fd
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Game Over Escape Screen.unity
     guid: 9039a11dee6960f4689925e523778d37
